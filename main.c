@@ -12,7 +12,7 @@
 // ================== Traffic Light Config ==================
 #define GREEN_TIME    5000    // 5 seconds (ms)
 #define YELLOW_TIME   2000    // 2 seconds (ms)
-#define EXTRA_GREEN   5000    // +5 seconds if density > 5
+#define EXTRA_GREEN   5000    // +5 seconds if density > 5 (ms)
 
 // Lane 1 LEDs (PORTA → Pins 22-24)
 #define L1R PA0
